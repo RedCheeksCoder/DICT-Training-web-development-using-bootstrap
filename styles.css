@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f6f2;
+}
+.card-img-top {
+  border-radius: 50px;
+  padding: 20px;
+}
+.card {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-body {
+  padding: 25px;
+  margin-top: -15px;
+}
+.btn-primary {
+  background-color: #3d2205cc;
+  border-radius: 50px;
+  width: 120px;
+  border: 2px rgba(61, 34, 5, 0.431) solid;
+}
+.btn-primary:hover {
+  background-color: black;
+  border: none;
+}
+h3,
+h5 {
+  color: rgb(0, 91, 228);
+}
+
+.price {
+  color: #665f4c;
+}
+
+.card-title {
+  color: #3a362c;
+  font-weight: 600;
+}
+
+.product-title {
+  margin: 0;
+  padding: 0;
+}
+
+.products {
+  background: #665f4c;
+  background: -webkit-linear-gradient(
+    40deg,
+    #665f4c 0%,
+    rgba(61, 34, 5, 0.43) 100%
+  );
+  background: linear-gradient(40deg, #665f4c 0%, rgba(61, 34, 5, 0.43) 100%);
+}
+
+.footer-container {
+  background-color: #3f2305;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.twitter {
+  border-radius: 10px;
+}
+
+.back-to-top,
+.footer-copy {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* ABOUT */
+.about__paragraph {
+  color: var(--BG-COLOR-LIGHT);
+  font-size: 1.5rem;
+  padding: 2rem;
+  line-height: 120%;
+}
+
+section.about {
+  background-color: hsla(0, 0%, 0%, 0.199);
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+section h1 {
+  color: var(--BG-COLOR-LIGHT);
+  font-size: 5rem;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* REVIEWS */
+.review__container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 3rem;
+}
+
+.review__rating {
+  color: limegreen;
+  font-size: 2rem;
+}
+
+.review__title {
+  color: #2b1805;
+  font-size: 3rem;
+}
+
+.review__summary {
+  color: var(--BG-COLOR-LIGHT);
+  font-size: 1.7rem;
+  margin-bottom: 2.5rem;
+}
+
+/* POLICY */
+
+.policy {
+  color: var(--BG-COLOR-LIGHT);
+  font-size: 1.5rem;
+  padding: 5rem;
+  line-height: 150%;
+}
+
+.policy h2 {
+  text-align: center;
+  font-size: 3rem;
+}

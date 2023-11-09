@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoffeeCrafter</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark"
+        style="background-color: #3f2305"
+      >
+        <div class="container">
+          <a href="#" class="navbar-brand">CoffeeCrafter</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">about</a>
+              </li>
+              <li class="nav-item">
+                <a href="reviews.html" class="nav-link">reviews</a>
+              </li>
+              <li class="nav-item">
+                <a href="policy.html" class="nav-link">policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="products">
+        <div class="container py-5">
+          <h1 class="text-center product-title">Products</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+            <div class="col">
+              <div class="card">
+                <img
+                  id="adjust"
+                  src="./img/dish1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">AFFOGATO</h5>
+                  <p class="card-text">
+                    "An indulgent Italian dessert, affogato combines a shot of
+                    hot espresso poured over creamy vanilla gelato, creating a
+                    harmonious contrast of flavors."
+                  </p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                  <h3 class="price">195 PHP</h3>
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="./img/dish2.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Flat White</h5>
+                  <p class="card-text">
+                    Espresso with steamed milk and thin microfoam. Stronger than
+                    latte, wetter than cappuccino. Smooth and silky coffee
+                    drink.
+                  </p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                  <h3 class="price">190 PHP</h3>
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="./img/dish3.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Palazzo</h5>
+                  <p class="card-text">
+                    Palazzo coffee offers a variety of flavors, from the smooth
+                    and mild arabica to the strong and intense robusta.
+                  </p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                  <h3 class="price">195 PHP</h3>
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="./img/dish4.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <p class="card-text">
+                    Double espresso with steamed and foamed milk. Creamy, rich,
+                    and smooth. Topped with cinnamon or cocoa. Italian coffee
+                    drink.
+                  </p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                  <h3 class="price">190 PHP</h3>
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="./img/dish5.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Mocha</h5>
+                  <p class="card-text">
+                    Espresso and hot milk with chocolate flavoring. Sweet, rich,
+                    and creamy. Topped with whipped cream or foam.
+                  </p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                  <h3 class="price">195 PHP</h3>
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="./img/dish6.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Espresso</h5>
+                  <p class="card-text">
+                    Hot water forced through fine coffee grounds. Strong, thick,
+                    and creamy. Topped with foam. Base for many coffee drinks
+                  </p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                  <h3 class="price">195 PHP</h3>
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p>
+          <a href="#" class="back-to-top">Back to top</a>
+        </p>
+        <div class="socials">
+          <a href="https://tl-ph.facebook.com/alamanahcafe/"
+            ><img src="images/logos/fb logo.webp" alt="" width="50" height="50"
+          /></a>
+          <a href="https://www.instagram.com/manilacoffeeshops/"
+            ><img src="images/logos/ig logo.webp" alt="" width="50" height="50"
+          /></a>
+          <a href="https://twitter.com/coffeeshopwc?lang=en"
+            ><img
+              class="twitter"
+              src="images/logos/tw.png"
+              alt=""
+              width="50"
+              height="50"
+          /></a>
+        </div>
+        <div class="footer-copy">Copyright&copy; 2023 CoffeeCrafter</div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
